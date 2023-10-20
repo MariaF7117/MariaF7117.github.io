@@ -14,22 +14,12 @@ Downloading Docker Desktop is the first crucial step in setting up your developm
 For Windows Users:
 
 Begin by visiting the official Docker website at https://www.docker.com/products/docker-desktop.
-On the Docker Desktop page, you'll find the download button specifically tailored for Windows. Click on it.
-Once the download is complete, run the installer. You may need to grant administrative privileges during the installation process.
-Follow the on-screen instructions to set up Docker Desktop on your Windows machine. Docker may require enabling features like Hyper-V and Windows Subsystem for Linux (WSL) during this process.
-After installation, Docker Desktop will be up and running, and you'll see the Docker icon in your system tray. You are now ready to start working with containers on your Windows system.
-For macOS Users:
-
-Visit the official Docker website at https://www.docker.com/products/docker-desktop to access the Docker Desktop page.
 
 ![](src/img2.png)
 
-Locate and click the download button specifically designed for macOS.
-Once the download is complete, open the Docker.dmg file.
-Drag and drop the Docker icon into the Applications folder to complete the installation.
-Navigate to your Applications folder, find Docker, and double-click to launch it.
-Docker Desktop will start, and you'll see the Docker whale icon in your menu bar. Your macOS machine is now ready to create and manage containers.
-These steps will ensure you have Docker Desktop installed and ready to begin your containerization journey on either Windows or macOS. Docker Desktop streamlines the containerization process, making it accessible and efficient for developers across different operating systems.
+For Mac and Windows users
+
+You can find the download links from the same page and the installation process is simple and pretty much the same for each. Follow the download instructions for each and continue with the installation proccess. 
 
 Once you have downloaded docker, you can just have it running in the background, but just be aware that it can take a lot of your processing memory while it is running so it might slow some downloads or other systems down while it is running. So just don't have it running for fun. 
 
@@ -51,17 +41,15 @@ Follow the installation steps for each operating system respectively and configu
 ![](/src/img1.png)
 
 
-Click on New File and make a .yml for Windows Machines and a .arm For Mac or IOS Machines. file titled the following 
+Click on New File and make a .yml file titled docker-compose.yml
 
-docker-compose.yml 
+In this tutorial we will not be covering docker or .yml and the science behind it, but we will need to use it, so copy this code and paste it into your new .yml file you just created. This will allow us to use the localhost on your web browser and access mariabd through a website called PHPmyAdmin.
 
-or 
+In this tutorial, since I am using a MacBook with an M1 arm processor, I will be using for phpmyadmin the following image: arm64v8/phpmyadmin.
 
-docker-compose.arm
+So I will title my docker-compose.arm.
 
-In this tutorial we will not be covering docker or .yml and the science behind it, but we will need to use it, so copy this code and paste it into your new .yml file you just created. This will allow us to use the localhost on your web browser and access mariabd through a website called PHPmyAdmin. 
-
-
+If you have a different computer, substitute this line image: arm64v8/phpmyadmin with image: phpmyadmin, and keep the original title. 
 
 
 
@@ -113,11 +101,22 @@ In this tutorial we will not be covering docker or .yml and the science behind i
 
 
 
+# .env
+We will also need a .env file in the main directory so that we can login to our phpMyAdmin page once it is formatted. Make a new .env file just titled `'.env'` and copy this code over.
+
+
+# MYSQL_SERVERNAME='localhost'
+
+    MYSQL_USER='username'
+    MYSQL_PASSWORD='password'
+    MYSQL_DATABASE='lab_3'
+
+Change the username and password to be something you will remember. This will be your login to the phpMyAdmin on your localhost:8080. 
 
 # PHP Code 
  Now you are ready to create a php page to access the database. Here is the code for this basic page that will be linked with the database we use.
 
- https://github.com/BYU-ITC-210/lab-3b-MariaF7117/tree/master/src 
+ https://github.com/BYU-ITC-210/lab-3a-MariaF7117/tree/master/src
 
 You will need to add each of the files from the following folders
 
@@ -134,6 +133,8 @@ With Docker up you can type in the visual studio code
 terminal the command
 
     docker compose up -d
+
+
 This will start the containers.
 Without this step, docker will not start running and it will not open your localhost. Because in the docker.yml file we made the phpMyAdmin page assigned to port 8080, that is what we will type in when we want to access the database.
 
@@ -147,7 +148,7 @@ It will bring you to a page that looks like this.
 
 ![](src/img4.png)
 
-Enter the Username and Password from the website.
+Enter the Username and Password from the `'.env'` file you created.
 
 Once you are in you will be able to start creating your database. 
 
@@ -191,6 +192,17 @@ By following this tutorial, you've gained a strong foundation in working with PH
 ## References
 
 - [MariaDB walkthrough](https://mariadb.com/resources/blog/developer-quickstart-php-mysqli-and-mariadb/) 
+
+This website will take you on a seperate tutorial much like this one where you will learn more about php and mariadb. If you have any clarifying questions, this is a great website to view.
+
 - [phpMyAdmin](https://www.phpmyadmin.net/)  
+
+This website will go into the background of `'php'` and the functionality of the programming language. 
+
 - [MariaDB](https://mariadb.org/documentation/)
+
+This website looks at mariadb as a tool for programming and for database tools. It will give background information on the concepts of mariadb. 
+
 - [Docker Walkthrough](https://docs.docker.com/desktop/)
+
+If oyu have any questions of downloading Docker Desktop, view this website. It can help answer some questions you may have. 
