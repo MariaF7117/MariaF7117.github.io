@@ -125,7 +125,7 @@ You will also need to create an index.php. This will be your main page.
 
 With all of these created in the appropriate folders and file directory, we can get to the database section of this tutorial. 
 
-# phpMyAdmin
+# phpMyAdmin create Database
 With Docker up you can type in the visual studio code
 terminal the command
 
@@ -155,7 +155,20 @@ Click on create database
 
 ![](/src/img6.png)
 
+Name it lab_3 and then under the top left Stucture tab select Create New Table.
 
+![](/src/img7.png)
+
+# Create Table
+- Create a new table called `'user'` in the `'lab_3'` database
+- Add the following fields:
+
+        | Name        | Type      | Length/Values  | Default         | Index   | A_I |  ...  |
+        | ----------- | --------- | -------------- | --------------- | ------- | --- | ----- |
+        | `id`        | `INT`     |                | ...             | Primary |  ☒  |  ...  |
+        | `username`  | `VARCHAR` | `100`          | ...             | Unique  |  ☐  |  ...  |
+        | `password`  | `VARCHAR` | `255`          | ...             | ...     |  ☐  |  ...  |
+        | `logged_in` | `BOOLEAN` |                | `As defined: 0` | ...     |  ☐  |  ...  |
 
 ## References
 
