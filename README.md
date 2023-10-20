@@ -51,9 +51,13 @@ Follow the installation steps for each operating system respectively and configu
 ![](/src/img1.png)
 
 
-Click on New File and make a .yml file titled the following 
+Click on New File and make a .yml for Windows Machines and a .arm For Mac or IOS Machines. file titled the following 
 
-docker-compose.yml
+docker-compose.yml 
+
+or 
+
+docker-compose.arm
 
 In this tutorial we will not be covering docker or .yml and the science behind it, but we will need to use it, so copy this code and paste it into your new .yml file you just created. This will allow us to use the localhost on your web browser and access mariabd through a website called PHPmyAdmin. 
 
@@ -163,16 +167,30 @@ Name it lab_3 and then under the top left Stucture tab select Create New Table.
 - Create a new table called `'user'` in the `'lab_3'` database
 - Add the following fields:
 
-        | Name        | Type      | Length/Values  | Default         | Index   | A_I |  ...  |
-        | ----------- | --------- | -------------- | --------------- | ------- | --- | ----- |
-        | `id`        | `INT`     |                | ...             | Primary |  ☒  |  ...  |
-        | `username`  | `VARCHAR` | `100`          | ...             | Unique  |  ☐  |  ...  |
-        | `password`  | `VARCHAR` | `255`          | ...             | ...     |  ☐  |  ...  |
-        | `logged_in` | `BOOLEAN` |                | `As defined: 0` | ...     |  ☐  |  ...  |
+![](/src/img8.png)
+
+click `'go'` and create the table.
+
+# Test it Out!
+
+Now after all your hard work you can test it out! Go to `'localhost'` and it will direct you to a login page. Since the database has no users, you will navigate to the register user page using the button under login. Register a new user, it will direct you back to the login page after you have done that and then enter the new user's credentials and login! 
+
+# Check Database
+
+You can see the new user in the database under the table you just created. You will see your user and a hashed password, but it is your password that you entered, so don't forget it.
+
+# Conclusion
+
+In conclusion, this tutorial has equipped you with the fundamental knowledge and practical skills needed to embark on your journey with PHP and MariaDB. We began by ensuring you had the essential tools, including Docker Desktop for easy containerization and Visual Studio Code for a streamlined coding environment.
+
+With Docker set up and your project created, we delved into the world of database interaction. You learned how to create a MariaDB database using phpMyAdmin and established a connection to it. The tutorial walked you through the process of creating a user table and even allowed you to test your database by registering a new user.
+
+By following this tutorial, you've gained a strong foundation in working with PHP and MariaDB. These skills will be invaluable as you continue your web development journey, allowing you to build dynamic, data-driven web applications with confidence. Keep exploring and experimenting with databases, as there's no better way to solidify your understanding and take your development skills to the next level. Happy coding!
+
 
 ## References
 
-- [CSS-Tricks](https://css-tricks.com/dom/) 
-- [Lucidchart](https://www.lucidchart.com/pages/uml-activity-diagram)  
-- [Date Format By Country](https://en.wikipedia.org/wiki/Date_format_by_country)
-- [Mailinator Walkthrough](https://jasonpearce.com/2014/08/21/create-your-own-personal-mailinator-alternate-domain/)
+- [MariaDB walkthrough](https://mariadb.com/resources/blog/developer-quickstart-php-mysqli-and-mariadb/) 
+- [phpMyAdmin](https://www.phpmyadmin.net/)  
+- [MariaDB](https://mariadb.org/documentation/)
+- [Docker Walkthrough](https://docs.docker.com/desktop/)
