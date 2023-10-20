@@ -1,4 +1,4 @@
-# "Getting Started with PHP and MariaDB: A Beginner's Guide to Database Interaction"
+# Getting Started with PHP and MariaDB: A Beginner's Guide to Database Interaction
 
 ## Introduction 
 
@@ -21,6 +21,9 @@ After installation, Docker Desktop will be up and running, and you'll see the Do
 For macOS Users:
 
 Visit the official Docker website at https://www.docker.com/products/docker-desktop to access the Docker Desktop page.
+
+![](src/img2.png)
+
 Locate and click the download button specifically designed for macOS.
 Once the download is complete, open the Docker.dmg file.
 Drag and drop the Docker icon into the Applications folder to complete the installation.
@@ -38,6 +41,8 @@ Step 1: Download Visual Studio Code
 Begin by visiting the official Visual Studio Code website at https://code.visualstudio.com/.
 On the website's main page, you'll find a prominent "Download for Windows" button for Windows users, a "Download for macOS" button for macOS users, and a "Download for Linux" button for Linux users. Click the appropriate button for your operating system.
 
+![](src/img3.png)
+
 Step 2: Install and Launch
 Follow the installation steps for each operating system respectively and configure how you will. It should be a straight forward proccess, but if you have any troubles I would refer to the download page for any troubleshooting. 
 
@@ -47,6 +52,57 @@ Follow the installation steps for each operating system respectively and configu
 
 
 Click on New File and make a .php page. I will name mine 
+
+
+
+
+
+    version: "3.7"
+    services:
+      web:
+      container_name: lab-3-apache-php
+      build: .
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./src:/var/www/html
+    depends_on:
+      - mariadb
+    env_file: 
+      - .env
+
+    mariadb:
+    container_name: lab-3-mariadb
+    image: mariadb
+    volumes:
+      - mariadb:/var/lib/mysql
+    ports:
+      - 3306:3306
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "no"
+      MYSQL_ROOT_PASSWORD: toor
+
+      MYSQL_USER: $MYSQL_USER
+      MYSQL_PASSWORD: $MYSQL_PASSWORD
+      MYSQL_DATABASE: $MYSQL_DATABASE
+
+    phpmyadmin:
+    container_name: lab-3-phpmyadmin
+    image: arm64v8/phpmyadmin
+    depends_on:
+      - mariadb
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      PMA_HOST: mariadb
+      MYSQL_ROOT_PASSWORD: toor
+
+    volumes:
+     mariadb:
+
 
 ## References
 
