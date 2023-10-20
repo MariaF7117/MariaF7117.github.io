@@ -215,4 +215,4 @@ This website looks at mariadb as a tool for programming and for database tools. 
 
 - [Docker Walkthrough](https://docs.docker.com/desktop/)
 
-If oyu have any questions of downloading Docker Desktop, view this website. It can help answer some questions you may have. 
+If you have any questions of downloading Docker Desktop, view this website. It can help answer some questions you may have. 
