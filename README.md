@@ -15,7 +15,8 @@ For Windows Users:
 
 Begin by visiting the official Docker website at [docker.com](https://www.docker.com/products/docker-desktop).
 
-![](src/img2.png)
+![Figure 1](src/img2.png)
+Figure 1: Docker.com
 
 For Mac and Windows users
 
@@ -31,7 +32,8 @@ Step 1: Download Visual Studio Code
 Begin by visiting the official Visual Studio Code website at [visualstudio.com](https://code.visualstudio.com/).
 On the website's main page, you'll find a prominent "Download for Windows" button for Windows users, a "Download for macOS" button for macOS users, and a "Download for Linux" button for Linux users. Click the appropriate button for your operating system.
 
-![](src/img3.png)
+![Figure 2](src/img3.png)
+Figure 2: VisualStudioCode.com
 
 Step 2: Install and Launch
 Follow the installation steps for each operating system respectively and configure how you will. It should be a straight forward proccess, but if you have any troubles I would refer to the download page for any troubleshooting. 
@@ -39,6 +41,7 @@ Follow the installation steps for each operating system respectively and configu
 # Open a new project
 
 ![](/src/img1.png)
+Figure 3: Open a New Project
 
 
 Click on New File and make a .yml file titled docker-compose.yml
@@ -147,6 +150,7 @@ In your web browser type in
 It will bring you to a page that looks like this.
 
 ![](src/img4.png)
+Figure 4: phpMyAdmin Login page
 
 Enter the Username and Password from the `'.env'` file you created.
 
@@ -155,20 +159,26 @@ Once you are in you will be able to start creating your database.
 Go to the top left corner and click Databases
 
 ![](/src/img5.png)
+Figure 5: Main Page in phpMyAdmin
 
 Click on create database 
 
 ![](/src/img6.png)
+Figure 6: phpMyAdmin Creating a new Database
 
 Name it lab_3 and then under the top left Stucture tab select Create New Table.
 
 ![](/src/img7.png)
+Figure 7: phpMyAdmin Creating a new table
+
 
 # Create Table
 - Create a new table called `'user'` in the `'lab_3'` database
 - Add the following fields:
 
 ![](/src/img8.png)
+Figure 8: phpMyAdmin table setup
+
 
 click `'go'` and create the table.
 
@@ -189,7 +199,7 @@ With Docker set up and your project created, we delved into the world of databas
 By following this tutorial, you've gained a foundation in working with PHP and MariaDB. These skills will be invaluable as you continue your web development journey, allowing you to build dynamic, data-driven web applications with confidence. Keep exploring and experimenting with databases, as there's no better way to solidify your understanding and take your development skills to the next level. Happy coding!
 
 
-## References
+## Additional Resources
 
 - [MariaDB walkthrough](https://mariadb.com/resources/blog/developer-quickstart-php-mysqli-and-mariadb/) 
 
