@@ -16,7 +16,7 @@ Once you have downloaded docker, you can just have it running in the background,
 # Open a Code editor
 For this tutorial I will be showing you how to code the necessary code through Visual Studio Code. https://code.visualstudio.com/download. I would reccommend it over others, but you can still accomplish this tutorial though other means as well. 
 
-
+![](/src/img1.png)
 
 ## References
 
