@@ -13,7 +13,7 @@ Downloading Docker Desktop is the first crucial step in setting up your developm
 
 For Windows Users:
 
-Begin by visiting the official Docker website at https://www.docker.com/products/docker-desktop.
+Begin by visiting the official Docker website at [docker.com](https://www.docker.com/products/docker-desktop).
 
 ![](src/img2.png)
 
@@ -28,7 +28,7 @@ In order to effectively follow along with this tutorial and make the most out of
 
 Step 1: Download Visual Studio Code
 
-Begin by visiting the official Visual Studio Code website at https://code.visualstudio.com/.
+Begin by visiting the official Visual Studio Code website at [visualstudio.com](https://code.visualstudio.com/).
 On the website's main page, you'll find a prominent "Download for Windows" button for Windows users, a "Download for macOS" button for macOS users, and a "Download for Linux" button for Linux users. Click the appropriate button for your operating system.
 
 ![](src/img3.png)
@@ -116,7 +116,7 @@ Change the username and password to be something you will remember. This will be
 # PHP Code 
  Now you are ready to create a php page to access the database. Here is the code for this basic page that will be linked with the database we use.
 
- https://github.com/BYU-ITC-210/lab-3a-MariaF7117/tree/master/src
+ [github.com/MariaF7117/lab_3](https://github.com/MariaF7117/lab_3)
 
 You will need to add each of the files from the following folders
 
@@ -186,7 +186,7 @@ In conclusion, this tutorial has equipped you with the fundamental knowledge and
 
 With Docker set up and your project created, we delved into the world of database interaction. You learned how to create a MariaDB database using phpMyAdmin and established a connection to it. The tutorial walked you through the process of creating a user table and even allowed you to test your database by registering a new user.
 
-By following this tutorial, you've gained a strong foundation in working with PHP and MariaDB. These skills will be invaluable as you continue your web development journey, allowing you to build dynamic, data-driven web applications with confidence. Keep exploring and experimenting with databases, as there's no better way to solidify your understanding and take your development skills to the next level. Happy coding!
+By following this tutorial, you've gained a foundation in working with PHP and MariaDB. These skills will be invaluable as you continue your web development journey, allowing you to build dynamic, data-driven web applications with confidence. Keep exploring and experimenting with databases, as there's no better way to solidify your understanding and take your development skills to the next level. Happy coding!
 
 
 ## References
