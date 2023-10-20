@@ -51,7 +51,11 @@ Follow the installation steps for each operating system respectively and configu
 ![](/src/img1.png)
 
 
-Click on New File and make a .php page. I will name mine 
+Click on New File and make a .yml file titled the following 
+
+docker-compose.yml
+
+In this tutorial we will not be covering docker or .yml and the science behind it, but we will need to use it, so copy this code and paste it into your new .yml file you just created. This will allow us to use the localhost on your web browser and access mariabd through a website called PHPmyAdmin. 
 
 
 
@@ -102,6 +106,55 @@ Click on New File and make a .php page. I will name mine
 
     volumes:
      mariadb:
+
+
+
+
+# PHP Code 
+ Now you are ready to create a php page to access the database. Here is the code for this basic page that will be linked with the database we use.
+
+ https://github.com/BYU-ITC-210/lab-3b-MariaF7117/tree/master/src 
+
+You will need to add each of the files from the following folders
+
+- actions
+- css
+- views
+
+You will also need to create an index.php. This will be your main page. 
+
+With all of these created in the appropriate folders and file directory, we can get to the database section of this tutorial. 
+
+# phpMyAdmin
+With Docker up you can type in the visual studio code
+terminal the command
+
+    docker compose up -d
+This will start the containers.
+Without this step, docker will not start running and it will not open your localhost. Because in the docker.yml file we made the phpMyAdmin page assigned to port 8080, that is what we will type in when we want to access the database.
+
+In your web browser type in
+
+    localhost:8080
+
+8080 is the port that the database is located on. 
+
+It will bring you to a page that looks like this.
+
+![](src/img4.png)
+
+Enter the Username and Password from the website.
+
+Once you are in you will be able to start creating your database. 
+
+Go to the top left corner and click Databases
+
+![](/src/img5.png)
+
+Click on create database 
+
+![](/src/img6.png)
+
 
 
 ## References
