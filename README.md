@@ -1,35 +1,28 @@
-Junior Core of Cybersecurity is by far the hardest in the major. I think many would agree that fall semester has been one for the books, and not in all of the best ways. Over this semester I have discovered how important taking care of your mental health is. Health is invaluable and should come before everything else because it is what allows us to work at our best. When I realized I hadn't been doing so well and I couldn't do it on my own I reached out to a professional to help me with some strategies to feel a bit better. 
-Here are a few of the things my health professional / therapist told me. 
+I have written this a million times and I can't seem to get it out with the correct expression of myself as well as trying to sound professional, so as I approach this small article, I am going to just write it as myself. 
 
-Physical Components
+Junior core has beaten me, chewed me up, and spit me back out. It has taken a large toll on my mentally. I really am a happy go lucky kind of person, but I felt as though I had so many responsibilities, which I did have, for this major I had many things that I needed to accompllish. One of the priorities that I let slip through the cracks was my own mental health. So I took the needed steps, met with a therapist, and learned a thing or two and I would like to share these tips with you so that maybe you can catch yourself slipping before you fall in a future semester, or even during this last week of finals. 
 
-1. **Sleep and Mental Health:**
-   Sleep deficiency significantly impacts mental and physical health. Adults typically require 7-8 hours of quality sleep for optimal well-being. Sleep deprivation can lead to impaired cognitive function, affecting decision-making, memory, and emotional regulation. It's associated with depression, risk-taking behavior, and difficulty coping with change.
-   In my case, this means dealing with stress and the weight of school and work better along with navigating my emotions and relationships better. 
+Mentally, juggling classes and managing multiple variables in life can get stressful! I know that Taking sophmore and junior core stressed me out beyond anyting else! I felt overwhelmed most of the time. I know that this is not a unique experience, so here are some tips to deal with this in the future.
 
-2. **Nutrition and Mood:**
-   The gut-brain connection influences mood via the production of chemicals like dopamine and serotonin. Nutrient-rich diets support good bacteria growth, positively affecting chemical production. Sugar intake can cause mood swings due to spikes in dopamine. Conversely, whole foods, fiber, antioxidants, folate, vitamin D, magnesium, and fermented foods aid in stabilizing mood and mental health.
-   Eating healthy full and balanced meals regularily will allow for more stable mood and energy. I know that many people, including myself, use energy drinks, caffine in any form to get energy, then balance it out with melatonin or other sleep medication. 
+1. Make activities that you enjoy a priority. Whether it is very physically demanding kick boxing to a chill walk in the evening, make physical activity a regular practice in your life, especially around finals. Stay committed, it may be hard to rationalize a good chunk of time to something that doesn't seem to be directly impacting your performance, but studies show that physical activity positively impacts mood, self-esteem, cognitive function, and social interaction. Exercise benefits individuals with serious mental illnesses, aiding weight control, fitness levels, and overall health. It does this by improving blood circulation to the brain and influencing the body's response to stress.
+ 
+2. Eat balanced meals that are providing you with all of the vitmins and minerals that you need. In a seminar I attended the presenter, a therapist, said that vitamin D is a vitamin that during the winter we are all severely lacking, vitamin D when processed in the body helps regulate sleep, mood, and cortisol levels. Remember to eat the full myPlate we all learned in highschool health. A plate full of vegitables, fruits, protiens, and grains. Sugar can increase our stress levels. Caffine and Melatonin are just drugs that emulate funcitons the body should be performing naturally given the proper nutrition. Cut back on energy drinks and melatonin and see the mood and energy stability increase.
 
-3. **Exercise and Mental Health:**
-   Regular aerobic exercises (jogging, swimming, etc.) reduce anxiety and depression by improving blood circulation to the brain and influencing the body's response to stress. Physical activity positively impacts mood, self-esteem, cognitive function, and social interaction. Exercise benefits individuals with serious mental illnesses, aiding weight control, fitness levels, and overall health.
-   Although our major makes it difficult to have much of a life outside assignments and projects, it doesn't mean it is impossible. It is possible to work, complete all of the assignments, and to still enjoy some hobbies. 
+3. Surround yourself with positive people who uplift you. Having a support group around you can help you manage emotions and work through stress together as well as having a safety net of someone who will support you through tough times. This can look like a family member, friends, mentor, and peers. I find that bringing a spiritual aspect into the support group is always helpful. Have a closer relationship with your faith and do things that actively build these relationships. We are social beings and are not meant to be left alone. Reach out, ask for support and help and it is also always a good idea to take a break and spend time developing life outside of school and work. 
 
+4. Sometimes, it can feel a bit all overwhelming. Take a break, take care of yourself. I konw that when I went to a seminar and the presenter told us it's okay to take a break from school and take care of ourselves, I thought to myself that she didn't know our major and surely it is impossible for you to take a break from school and have it not effect how you do. I have found that a little break once and a while, sometimes once every week, once every other week, can help with managing stress and focusing on self care and mental health so that it is cutting of the problem before it becomes a big problem.
 
-Ways to manage stress
-
-1. Embrace physical activity as a mood booster. Whether it's a stroll, gym session, or yoga, find what you enjoy and commit to it regularly before finals. Use reminders or schedules to stick to this routine.
-
-2. Value your meals. Prioritize a balanced diet with fruits, veggies, and proteins, especially as finals approach. Skip the sugars, and if resources are a concern, seek assistance from places like the Husker Pantry.
-
-3. Break down your goals. Instead of overwhelming yourself, divide larger tasks into manageable steps. List them out and tick them off as you progress. This approach builds confidence as you conquer each step.
-
-4. Connect with nature. Spending time outdoors can alleviate stress. Even if it's a short walk back home, relish the sunlight and fresh air. Take it slow, breathe deep, and absorb your surroundings.
-
-5. Seek professional help if needed. Sometimes, self-care isn't enough. Don't hesitate to utilize on-campus resources for additional support in managing stress.
+5. Seek professional support if needed. Sometimes, self-care alone may not suffice. Don't hesitate to reach out to on-campus resources for additional guidance in managing stress. They're there to lend a helping hand when required.
 
 
+Here is a link to BYU CAPS (counseling and psychological services) 
+https://caps.byu.edu/make-an-appointment
 
 
+It has been a difficult semester for me, and I know that I am not alone in this sentiment. There have been many frustrations, many sleepless nights, and many incompleted assignments, but hey, we made it, and we can make another semester!
 
+Happy Hollidays,
 
+Wishing everyone well and I hope this can help at least one person,
+
+Maria Feist
