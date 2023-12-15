@@ -1,5 +1,3 @@
-I have written this a million times and I can't seem to get it out with the correct expression of myself as well as trying to sound professional, so as I approach this small article, I am going to just write it as myself. 
-
 Junior core has beaten me, chewed me up, and spit me back out. It has taken a large toll on my mentally. I really am a happy go lucky kind of person, but I felt as though I had so many responsibilities, which I did have, for this major I had many things that I needed to accompllish. One of the priorities that I let slip through the cracks was my own mental health. So I took the needed steps, met with a therapist, and learned a thing or two and I would like to share these tips with you so that maybe you can catch yourself slipping before you fall in a future semester, or even during this last week of finals. 
 
 Mentally, juggling classes and managing multiple variables in life can get stressful! I know that Taking sophmore and junior core stressed me out beyond anyting else! I felt overwhelmed most of the time. I know that this is not a unique experience, so here are some tips to deal with this in the future.
